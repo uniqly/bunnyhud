@@ -260,6 +260,8 @@ event HudHealthDyingPulse
 	Animate c_PlayerStatusHealthValueShadow2	Alpha		"255"				Linear	0.0 0.00
 	Animate c_PlayerStatusHealthValueShadow2	FgColor		"shadow"			Accel	0.0	0.0
 	
+	Animate	TargetBG2		FgColor		"c_lowhp"		Accel 0.0 0.0
+	
 	RunEvent HudHealthDyingPulseLoop	0.25
 }
 
@@ -282,6 +284,8 @@ event HudHealthDyingPulseStop
 	Animate c_PlayerStatusHealthValueShadow		FgColor		"shadow"			Accel	0.0 0.0		
 	Animate c_PlayerStatusHealthValueShadow2	Alpha		"255"				Linear	0.0 0.00
 	Animate c_PlayerStatusHealthValueShadow2	FgColor		"transparent"		Accel	0.0	0.0
+	
+	Animate	TargetBG2		FgColor		"c_hpbg"		Accel 0.0 0.0
 }
 
 //===========================================
@@ -477,12 +481,18 @@ event HudTournamentSetupPanelClose
 
 event HudMedicCharged
 {
-	Animate	ChargeLabelColour 	FgColor		"c_healthbonus"			Linear 0.0 0.1
-	Animate	ChargeLabelColour 	FgColor		"c_uberflash"			Linear 0.3 0.4
-	
-	Animate	ChargeMeter 	FgColor		"c_healthbonus"		Linear 0.0 0.1
-	Animate	ChargeMeter 	FgColor		"c_uberflash"			Linear 0.3 0.4
+	Animate	ChargeLabel1	Alpha		"255"		Linear 0.0 0.0
+	Animate	ChargeLabel2	Alpha		"255"		Linear 0.0 0.0
 
+
+	Animate	ChargeLabel1 	FgColor		"c_healthbonus"			Linear 0.0 0.1
+	Animate	ChargeLabel1 	FgColor		"c_uberflash"			Linear 0.3 0.4
+	
+	Animate	ChargeLabel2 	FgColor		"shadow"				Linear 0.0 0.0
+	
+	Animate	ChargeMeter 	FgColor		"c_healthbonus"			Linear 0.0 0.1
+	Animate	ChargeMeter 	FgColor		"c_uberflash"			Linear 0.3 0.4
+	
 	RunEvent HudMedicChargedLoop	0.6
 }
 
@@ -494,11 +504,16 @@ event HudMedicChargedLoop
 
 event HudMedicChargedStop
 {
+	Animate	ChargeLabel1	Alpha		"0"		Linear 0.0 0.0
+	Animate	ChargeLabel2	Alpha		"0"		Linear 0.0 0.0
+
 	StopEvent HudMedicCharged 0.0
 	StopEvent HudMedicChargedLoop 0.0
 	
-	Animate	ChargeLabelColour 	FgColor		"c_healthbonus"		Linear 0.0 0.0001
+	Animate	ChargeLabel1	FgColor		"transparent"		Linear 0.0 0.0001
+	Animate	ChargeLabel2	FgColor		"transparent"		Linear 0.0 0.0001
 	Animate	ChargeMeter 	FgColor		"c_healthbonus"		Linear 0.0 0.0001
+
 }
 
 //====================================
