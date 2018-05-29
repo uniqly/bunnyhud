@@ -19,7 +19,7 @@
 
 		"RoundIndicatorPanel_kv"
 		{
-			"ypos"				"4"
+			"ypos"				"3"
 			"wide"				"6"
 			"tall"				"6"
 			"zpos"				"7"
@@ -29,7 +29,7 @@
 
 		"RoundWinPanelRed_kv"
 		{
-			"ypos"				"-2"
+			"ypos"				"-3"
 			"wide"				"17"
 			"tall"				"17"
 			"zpos"				"8"
@@ -39,7 +39,7 @@
 
 		"RoundWinPanelBlue_kv"
 		{
-			"ypos"				"-2"
+			"ypos"				"-3"
 			"wide"				"17"
 			"tall"				"17"
 			"zpos"				"8"
@@ -55,8 +55,8 @@
 		"xpos"			"cs-0.5"
 		"ypos"			"0"
 		"zpos"			"5"
-		"wide"			"o3.833"
-		"tall"			"35"
+		"wide"			"115"
+		"tall"			"0"
 
 		"backgroundtype"		"2"
 		"proportionaltoparent"	"1"
@@ -64,4 +64,49 @@
 		"image"					"../hud/comp_round_timer"
 		"scaleimage"			"1"
 	}
+	
+	"BlueScoreBG"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"BlueScoreBG"
+		"xpos"			"c-36"
+		"ypos"			"0"
+		"wide"			"36"
+		"tall"			"12"
+		"proportionaltoparent"	"1"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"c_bluteam"
+
+	}
+	
+	"RedScoreBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"RedScoreBG"
+		"xpos"			"c0"
+		"ypos"			"0"
+		"wide"			"36"
+		"tall"			"12"
+		"proportionaltoparent"	"1"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"c_redteam"
+	}
+	
+	"TimerBG"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"TimerBG"
+		"xpos"			"c-36"
+		"ypos"			"12"
+		"wide"			"72"
+		"tall"			"16"
+		"proportionaltoparent"	"1"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"c_black"
+
+	}
+	
 }
