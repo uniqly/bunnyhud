@@ -51,10 +51,10 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"WaitingForPlayersLabel"
-		"xpos"			"26"
+		"xpos"			"21"
 		"ypos"			"24"
 		"zpos"			"5"
-		"wide"			"60"
+		"wide"			"70"
 		"tall"			"12"
 		"visible"		"0"
 		"enabled"		"1"
@@ -68,13 +68,9 @@
 		if_match
 		{
 			"proportionaltoparent"	"1"
-			"xpos"					"0"
-			"ypos"					"21"
-			"ypos_minmode"			"21"
-			"wide"					"p1"
-			"font"					"HudFontSmallestBold"
-			"font_hidef"			"HudFontSmallestBold"
-			"font_lodef"			"HudFontSmallestBold"
+			"xpos"					"30"
+			"ypos"					"27"
+			"font"					"NeutraText_12"
 		}
 	}			
 	"WaitingForPlayersBG"
@@ -100,10 +96,10 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"OvertimeLabel"
-		"xpos"			"26"
+		"xpos"			"21"
 		"ypos"			"24"
 		"zpos"			"5"
-		"wide"			"60"
+		"wide"			"70"
 		"tall"			"12"
 		"visible"		"0"
 		"enabled"		"1"
@@ -117,13 +113,9 @@
 		if_match
 		{
 			"proportionaltoparent"	"1"
-			"xpos"					"0"
-			"ypos"					"21"
-			"ypos_minmode"			"21"
-			"wide"					"p1"
-			"font"					"HudFontSmallestBold"
-			"font_hidef"			"HudFontSmallestBold"
-			"font_lodef"			"HudFontSmallestBold"
+			"xpos"					"30"
+			"ypos"					"27"
+			"font"					"NeutraText_12"
 		}
 	}			
 	"OvertimeBG"
@@ -149,10 +141,10 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"SuddenDeathLabel"
-		"xpos"			"26"
+		"xpos"			"21"
 		"ypos"			"24"
 		"zpos"			"5"
-		"wide"			"60"
+		"wide"			"70"
 		"tall"			"12"
 		"visible"		"0"
 		"enabled"		"1"
@@ -166,13 +158,9 @@
 		if_match
 		{
 			"proportionaltoparent"	"1"
-			"xpos"					"0"
-			"ypos"					"21"
-			"ypos_minmode"			"21"
-			"wide"					"p1"
-			"font"					"HudFontSmallestBold"
-			"font_hidef"			"HudFontSmallestBold"
-			"font_lodef"			"HudFontSmallestBold"
+			"xpos"					"30"
+			"ypos"					"27"
+			"font"					"NeutraText_12"
 		}
 	}			
 	"SuddenDeathBG"
@@ -199,10 +187,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SetupLabel"
-		"xpos"			"26"
+		"xpos"			"21"
 		"ypos"			"24"
 		"zpos"			"5"
-		"wide"			"60"
+		"wide"			"70"
 		"tall"			"12"
 		"visible"		"0"
 		"enabled"		"1"
@@ -216,13 +204,9 @@
 		if_match
 		{
 			"proportionaltoparent"	"1"
-			"xpos"					"0"
-			"ypos"					"21"
-			"ypos_minmode"			"21"
-			"wide"					"p1"
-			"font"					"HudFontSmallestBold"
-			"font_hidef"			"HudFontSmallestBold"
-			"font_lodef"			"HudFontSmallestBold"
+			"xpos"					"30"
+			"ypos"					"27"
+			"font"					"NeutraText_12"
 		}
 	}	
 	"SetupBG"
@@ -278,13 +262,9 @@
 		if_match
 		{
 			"proportionaltoparent"	"1"
-			"xpos"					"0"
-			"ypos"					"21"
-			"ypos_minmode"			"21"
-			"wide"					"p1"
-			"font"					"HudFontSmallestBold"
-			"font_hidef"			"HudFontSmallestBold"
-			"font_lodef"			"HudFontSmallestBold"
+			"xpos"					"30"
+			"ypos"					"27"
+			"font"					"NeutraText_12"
 		}
 	}	
 	"ServerTimeLimitLabelBG"
