@@ -57,7 +57,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"250 235 215 90"
+		"fillcolor"		"c_hpbg"
 	}
 	
 	"TargetBG3"
