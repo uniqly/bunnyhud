@@ -334,12 +334,10 @@
 				"proportionaltoparent"	"1"
 
 				"xpos"			"cs-0.5"
-				"ypos"			"12"
-				"ypos_minmode"	"12"
-				"tall"			"10"
-				"font"			"HudFontSmall"
-				"font_minmode"	"HudFontSmall"
-				"font_lodef"	"HudFontSmall"
+				"ypos"			"11"
+				"tall"			"16"
+				"wide"			"72"
+				"font"			"NeutraText_14"
 			}
 		}	
 	}
