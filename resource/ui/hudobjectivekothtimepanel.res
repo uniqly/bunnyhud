@@ -30,8 +30,7 @@
 		if_match
 		{
 			"proportionaltoparent"	"1"
-			"xpos"					"cs-0.5"
-			"xpos_minmode"			"cs-0.5"
+			"xpos"					"100"
 			"ypos"					"0"
 			"ypos_minmode"			"0"
 			"delta_item_x"			"10"
@@ -63,16 +62,12 @@
 			{
 				"proportionaltoparent"	"1"
 
-				"xpos"			"15"
-				"xpos_minmode"	"15"
-				"ypos"			"12"
-				"ypos_minmode"	"12"
-				"tall"			"10"
-				"wide"			"35"
-				"wide_minmode"	"35"
-				"font"			"HudFontSmall"
-				"font_minmode"	"HudFontSmall"
-				"font_lodef"	"HudFontSmall"
+				"xpos"			"0"
+				"ypos"			"0"
+				"tall"			"11"
+				"wide"			"36"
+				"font"			"NeutraText_10"
+				"fgcolor"		"c_white"
 			
 			}
 		}	
@@ -100,10 +95,8 @@
 		if_match
 		{
 			"proportionaltoparent"	"1"
-			"xpos"					"cs-0.5"
-			"xpos_minmode"			"cs-0.5"
+			"xpos"					"136"
 			"ypos"					"0"
-			"ypos_minmode"			"0"
 			"delta_item_x"			"50"
 			"delta_item_start_y"	"12"
 			"delta_item_end_y"		"50"
@@ -133,16 +126,11 @@
 			{
 				"proportionaltoparent"	"1"
 
-				"xpos"			"rs1-15"
-				"xpos_minmode"	"rs1-15"
-				"ypos"			"12"
-				"ypos_minmode"	"12"
-				"wide"			"35"
-				"wide_minmode"	"35"
-				"tall"			"10"
-				"font"			"HudFontSmall"
-				"font_minmode"	"HudFontSmall"
-				"font_lodef"	"HudFontSmall"
+				"xpos"			"0"
+				"ypos"			"0"
+				"wide"			"36"
+				"tall"			"11"
+				"font"			"NeutraText_10"
 			
 			}
 		}	
