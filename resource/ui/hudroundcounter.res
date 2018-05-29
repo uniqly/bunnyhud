@@ -1,112 +1,153 @@
-"Resource/UI/HudRoundCounter.res"
-{
-	"RoundCounter"
+"Resource/UI/HudObjectiveKothTimePanel.res"
+{	
+	"HudKothTimeStatus"
 	{
-		"fieldName"		"RoundCounter"
-		"xpos"			"cs-0.5"
-		"ypos"			"-2"
-		"zpos"			"2"		
-		"wide"			"300"
-		"tall"			"25"
-		"visible"		"1"
-		"enabled"		"1"
-		"proportionaltoparent"	"1"
-
-		"starting_width"	"20"
-		"width_per_round"	"24"
-		"indicator_start_offset"	"4"
-		"indicator_max_wide"	"30"
-
-		"RoundIndicatorPanel_kv"
+		if_match
 		{
-			"ypos"				"3"
-			"wide"				"6"
-			"tall"				"6"
-			"zpos"				"7"
-			"image"				"../hud/comp_round_counter_dot_bg"
-			"scaleimage"		"1"
+			"zpos"		"5"
 		}
+	}
 
-		"RoundWinPanelRed_kv"
-		{
-			"ypos"				"-3"
-			"wide"				"17"
-			"tall"				"17"
-			"zpos"				"8"
-			"image"				"../hud/comp_round_counter_light_red"
-			"scaleimage"		"1"
-		}
-
-		"RoundWinPanelBlue_kv"
-		{
-			"ypos"				"-3"
-			"wide"				"17"
-			"tall"				"17"
-			"zpos"				"8"
-			"image"				"../hud/comp_round_counter_light_blue"
-			"scaleimage"		"1"
-		}
-	}	
-
-	"Background"
+	"BlueTimer"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"Background"
-		"xpos"			"cs-0.5"
-		"ypos"			"0"
-		"zpos"			"5"
-		"wide"			"115"
-		"tall"			"0"
+		"ControlName"		"CTFHudTimeStatus"
+		"fieldName"			"BlueTimer"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"2"
+		"wide"				"100"
+		"tall"				"150"
+		"visible"			"1"
+		"enabled"			"1"
+		"delta_item_x"			"22"
+		"delta_item_start_y"	"50"
+		"delta_item_end_y"		"70"
+		"PositiveColor"			"0 255 0 255"
+		"NegativeColor"			"255 0 0 255"
+		"delta_lifetime"		"1.5"
+		"delta_item_font"		"NeutraText_18"
 
-		"backgroundtype"		"2"
-		"proportionaltoparent"	"1"
+		if_match
+		{
+			"proportionaltoparent"	"1"
+			"xpos"					"100"
+			"ypos"					"12"
+			"ypos_minmode"			"0"
+			"delta_item_x"			"10"
+			"delta_item_start_y"	"12"
+			"delta_item_end_y"		"50"
+			"PositiveColor"			"0 255 0 255"
+			"NegativeColor"			"255 0 0 255"
+			"delta_lifetime"		"1.5"
+			"delta_item_font"		"HudFontMediumSmall"
+		}
+		
+		"TimePanelValue"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"TimePanelValue"
+			"font"			"NeutraText_18"
+			"fgcolor"		"c_white"
+			"xpos"			"26"
+			"ypos"			"0"
+			"zpos"			"3"
+			"wide"			"60"
+			"tall"			"24"
+			"visible"		"1"
+			"enabled"		"1"
+			"textAlignment"		"center"
+			"labelText"		"0:00"
+
+			if_match
+			{
+				"proportionaltoparent"	"1"
+
+				"xpos"			"0"
+				"ypos"			"0"
+				"tall"			"16"
+				"wide"			"36"
+				"font"			"NeutraText_14"
+				"fgcolor"		"c_white"
 			
-		"image"					"../hud/comp_round_timer"
-		"scaleimage"			"1"
+			}
+		}	
+	}
+
+	"RedTimer"
+	{
+		"ControlName"		"CTFHudTimeStatus"
+		"fieldName"			"RedTimer"
+		"xpos"				"160"
+		"ypos"				"12"
+		"zpos"				"2"
+		"wide"				"100"
+		"tall"				"150"
+		"visible"			"1"
+		"enabled"			"1"
+		"delta_item_x"			"22"
+		"delta_item_start_y"	"50"
+		"delta_item_end_y"		"70"
+		"PositiveColor"			"0 255 0 255"
+		"NegativeColor"			"255 0 0 255"
+		"delta_lifetime"		"1.5"
+		"delta_item_font"		"NeutraText_18"
+
+		if_match
+		{
+			"proportionaltoparent"	"1"
+			"xpos"					"136"
+			"ypos"					"0"
+			"delta_item_x"			"50"
+			"delta_item_start_y"	"12"
+			"delta_item_end_y"		"50"
+			"PositiveColor"			"0 255 0 255"
+			"NegativeColor"			"255 0 0 255"
+			"delta_lifetime"		"1.5"
+			"delta_item_font"		"HudFontMediumSmall"
+		}
+		
+		"TimePanelValue"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"TimePanelValue"
+			"font"			"NeutraText_18"
+			"fgcolor"		"c_white"
+			"xpos"			"26"
+			"ypos"			"0"
+			"zpos"			"3"
+			"wide"			"60"
+			"tall"			"24"
+			"visible"		"1"
+			"enabled"		"1"
+			"textAlignment"		"center"
+			"labelText"		"0:00"
+
+			if_match
+			{
+				"proportionaltoparent"	"1"
+
+				"xpos"			"0"
+				"ypos"			"0"
+				"wide"			"36"
+				"tall"			"16"
+				"font"			"NeutraText_14"
+			
+			}
+		}	
 	}
 	
-	"BlueScoreBG"
+	"ActiveTimerBG"
 	{
 		"ControlName"		"ImagePanel"
-		"fieldName"		"BlueScoreBG"
-		"xpos"			"c-36"
-		"ypos"			"0"
-		"wide"			"36"
-		"tall"			"12"
-		"proportionaltoparent"	"1"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"c_bluteam"
-
+		"fieldName"			"ActiveTimerBG"
+		"xpos"				"0"
+		"ypos"				"26"
+		"zpos"				"1"
+		"wide"				"60"
+		"tall"				"2"
+		"visible"			"0"
+		"enabled"			"1"
+		"scaleImage"		"1"	
+		"fillcolor"			"c_dyingpulse"
 	}
-	
-	"RedScoreBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"RedScoreBG"
-		"xpos"			"c0"
-		"ypos"			"0"
-		"wide"			"36"
-		"tall"			"12"
-		"proportionaltoparent"	"1"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"c_redteam"
-	}
-	
-	"TimerBG"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"TimerBG"
-		"xpos"			"c-36"
-		"ypos"			"12"
-		"wide"			"72"
-		"tall"			"16"
-		"proportionaltoparent"	"1"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"c_black"
-
-	}
-	
 }
