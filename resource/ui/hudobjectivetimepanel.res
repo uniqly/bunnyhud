@@ -271,15 +271,11 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"ServerTimeLimitLabelBG"
-		"xpos"			"16"	[$WIN32]
-		"xpos"			"11"	[$X360]
+		"xpos"			"99999"	
 		"ypos"			"31"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
 		"wide"			"78"
 		"tall"			"20"
-		"tall_minmode"	"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
