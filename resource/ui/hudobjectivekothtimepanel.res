@@ -31,7 +31,7 @@
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"100"
-			"ypos"					"0"
+			"ypos"					"12"
 			"ypos_minmode"			"0"
 			"delta_item_x"			"10"
 			"delta_item_start_y"	"12"
@@ -64,9 +64,9 @@
 
 				"xpos"			"0"
 				"ypos"			"0"
-				"tall"			"11"
+				"tall"			"16"
 				"wide"			"36"
-				"font"			"NeutraText_10"
+				"font"			"NeutraText_14"
 				"fgcolor"		"c_white"
 			
 			}
@@ -96,7 +96,7 @@
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"136"
-			"ypos"					"0"
+			"ypos"					"12"
 			"delta_item_x"			"50"
 			"delta_item_start_y"	"12"
 			"delta_item_end_y"		"50"
@@ -129,8 +129,8 @@
 				"xpos"			"0"
 				"ypos"			"0"
 				"wide"			"36"
-				"tall"			"11"
-				"font"			"NeutraText_10"
+				"tall"			"16"
+				"font"			"NeutraText_14"
 			
 			}
 		}	
