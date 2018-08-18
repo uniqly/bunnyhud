@@ -16,10 +16,10 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"r245"
+		"xpos"	"c110"
 		"ypos"	"r170"
 		"wide"	"250"
-		"tall"	"100"
+		"tall"	"54"
 	}
 	
 	HudObjectiveStatus
@@ -77,7 +77,7 @@
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r420"	[$WIN32]
+		"xpos"			"c-100"	[$WIN32]
 		"ypos"			"r140"	[$WIN32]
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"200"
@@ -176,9 +176,9 @@
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"r370"	
-		"ypos"					"r290"	
-		"wide"					"116"
+		"xpos"					"c-100"	
+		"ypos"					"r210"	
+		"wide"					"200"
 		"tall"  				"180"
 		"visible" 				"1"
 		"enabled" 				"1"
@@ -230,7 +230,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"280"
+		"ypos"		"r230"
 		"wide"	 	"252"
 		"tall"	 	"35"
 		"tall_minmode"	 	"28"
@@ -250,7 +250,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"250"
+		"ypos"		"r230"
 		"wide"	 	"252"
 		"tall"	 	"35"
 		"tall_minmode"	 	"28"
@@ -267,7 +267,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"335"
+		"ypos"		"r130"
 		"wide"	 	"252"
 		"tall"	 	"35"
 		"tall_minmode"	 	"28"
@@ -458,8 +458,10 @@
 		"enabled" "1"
 		"wide"	 "628"
 		"tall"	 "468"
+		"xpos"	 "r633"
+		"ypos"	 "r478"
 
-		"MaxDeathNotices" "4"
+		"MaxDeathNotices" "6"
 		"IconScale"	  "0.35"
 		"LineHeight"	  "16"
 		"LineSpacing"	  "2"
@@ -1003,8 +1005,8 @@
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r420"
-		"ypos"			"r180"
+		"xpos"			"c-100"
+		"ypos"			"r177"
 		"wide"			"f0"
 		"tall"			"f0"
 	}	
