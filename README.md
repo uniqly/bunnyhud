@@ -6,7 +6,7 @@ Works on 1920x1080
 
 **CHANGELOG**
 
-**v.2018.18.8** 
+**v.2018.18.8**  
 Changes:  
 -ACTUALLY added 16:9 support.(Works with 1080p. Not sure about 720p.)  
 Issues:  
