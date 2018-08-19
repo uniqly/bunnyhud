@@ -8,7 +8,7 @@ Works on 1920x1080
 
 **v.2018.19.8**  
 Changes:  
--Added a custom disguise menu  
+-Added a custom disguise menu.  
 
 **v.2018.18.8**  
 Changes:  
