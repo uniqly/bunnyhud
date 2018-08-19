@@ -25,10 +25,10 @@
 		"ControlName"	"CIconPanel"
 		"fieldName"		"ClassIcon"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"-20"
 		"zpos"			"1"
-		"wide"			"45"
-		"tall"			"90"
+		"wide"			"40"
+		"tall"			"80"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
@@ -39,8 +39,8 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"NumberBg"
-		"xpos"			"15"
-		"ypos"			"90"
+		"xpos"			"12"
+		"ypos"			"60"
 		"zpos"			"0"
 		"wide"			"15"
 		"tall"			"15"
@@ -57,8 +57,8 @@
 		"fieldName"		"NumberLabel"
 		"font"			"Default"
 		"fgcolor"		"Black"
-		"xpos"			"15"
-		"ypos"			"90"
+		"xpos"			"12"
+		"ypos"			"60"
 		"zpos"			"0"
 		"wide"			"15"
 		"tall"			"15"
@@ -71,15 +71,15 @@
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}
-		
+	
 	"NumberLabel"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
 		"font"			"Default"
 		"fgcolor"		"Black"
-		"xpos"			"15"
-		"ypos"			"90"
+		"xpos"			"12"
+		"ypos"			"60"
 		"zpos"			"0"
 		"wide"			"15"
 		"tall"			"15"
@@ -90,6 +90,5 @@
 		"labelText"		"3"
 		"textAlignment"	"Center"
 		"dulltext"		"1"
-		"brighttext"	"0"
-	}
+		"
 }

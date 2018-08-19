@@ -188,9 +188,9 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"140"
-		"ypos"					"r180"
-		"wide"					"116"
+		"xpos"					"c-195"
+		"ypos"					"r230"
+		"wide"					"200"
 		"tall"  				"180"
 		"visible" 				"1"
 		"enabled" 				"1"
@@ -990,13 +990,10 @@
 		"fieldName" 	"HudMenuSpyDisguise"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-235"
-		"ypos"			"c-52"
-		"ypos_hidef"	"c-42"
-		"ypos_lodef"	"c-42"
-		"wide"			"470"
-		"tall"			"200"	[$WIN32]
-		"tall"			"180"	[$X360]
+		"xpos"			"c-205"
+		"ypos"			"r110"
+		"wide"			"380"
+		"tall"			"100"	
 		"PaintBackgroundType"	"0"
 	}	
 	

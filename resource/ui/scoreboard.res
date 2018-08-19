@@ -65,7 +65,7 @@
 		"pinCorner"													"0"
 		"visible"													"1"
 		"enabled"													"1"
-		"border"													"BackpackItemGrayedOut"
+		"border"													"c_b_black"
 		
 		"xpos_minmode"												"73"
 		"ypos_minmode"												"60"
@@ -161,7 +161,7 @@
 		"fillcolor" 												""
 		"draw_corner_width"											"5"
 		"draw_corner_height"										"5"
-		"border"													"BackpackItemGrayedOut"
+		"border"													"c_b_black"
 		
 		"xpos_minmode"												"300"
 		"ypos_minmode"												"25"
@@ -191,7 +191,7 @@
 		"fillcolor" 												""
 		"draw_corner_width"											"5"
 		"draw_corner_height"										"5"
-		"border"													"BackpackItemGrayedOut"
+		"border"													"c_b_black"
 		
 		"xpos_minmode"												"300"
 		"ypos_minmode"												"25"
