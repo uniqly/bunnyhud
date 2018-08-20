@@ -6,6 +6,13 @@ Works on 1920x1080
 
 **CHANGELOG**
 
+**v.2018.20.8**  
+Changes:  
+-Added custom capture point icons.  
+-Added custom destroy and build menus.  
+Notes:  
+-One update a date lol what
+
 **v.2018.19.8**  
 Changes:  
 -Added a custom disguise menu.  
