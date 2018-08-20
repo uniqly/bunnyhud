@@ -2380,4 +2380,12 @@ event DelayQuestMapClose
 	FireCommand	1.0 "close"
 }
 
+event HudSnapShotReminderIn
+{
+    RunEvent HudHealthDyingPulseStop 10.0
+    RunEvent HudHealthBonusPulseStop 10.0
+    RunEvent HudLowAmmoPulseStop 10.0
+    RunEvent HudMedicChargedStop 10.0
+}
+
 //

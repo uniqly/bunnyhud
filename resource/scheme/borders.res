@@ -2680,6 +2680,32 @@ Scheme
 		}	
 		/////CUSTOM/////
 		
+		c_b_white
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"c_white"
+			
+			"image"					"replay/thumbnails/whiteborder"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"11"	
+		}
+		
+		c_b_white_translucent
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"c_white"
+			
+			"image"					"backpack_rect_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"11"	
+		}
+		
 		c_b_black
 		{
 			"bordertype"			"scalable_image"
