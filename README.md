@@ -6,6 +6,10 @@ Works on 1920x1080
 
 **CHANGELOG**
 
+**v.2018.21.8**  
+Changes:  
+-Re-added 4:3 support
+
 **v.2018.20.8**  
 Changes:  
 -Added custom capture point icons.  
