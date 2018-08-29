@@ -2,9 +2,13 @@
 bunnyhudbeta by bunnyy/uniqly
 
 Still work-in-progress. Currently includes custom health, ammo, scoreboard and target ids.
-Works on 1920x1080
+Works on 16:9(tested on 1920x1080) and 4:3(tested on 1280x960).
 
 **CHANGELOG**
+
+**v.2018.21.8**  
+Changes:  
+-Re-added 4:3 support
 
 **v.2018.20.8**  
 Changes:  
