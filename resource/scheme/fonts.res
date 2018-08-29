@@ -2572,6 +2572,17 @@ Scheme
 			}
 		}
 		
+		"NeutraBold_9"
+		{
+			"1"
+			{
+				"name"	"Neutra Display Titling"
+				"tall"	"9"
+				"additive"	"0"
+				"antialias" "1"				
+			}
+		}
+		
 		"NeutraBold_10"
 		{
 			"1"
@@ -2860,6 +2871,16 @@ Scheme
 				"name"	"NeutraText-BookAlt"
 				"tall"	"10"
 				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		
+		"NeutraTextAlt_10"
+		{
+			"1"
+			{
+				"name"	"NeutraText-BookAlt"
+				"tall"	"10"
 				"antialias"	"1"
 			}
 		}

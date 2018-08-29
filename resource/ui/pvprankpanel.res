@@ -49,11 +49,11 @@
 		{
 			"ControlName"	"CBaseModelPanel"
 			"fieldName"		"RankModel"
-			"xpos"			"cs-0.5"
+			"xpos"			"0"
 			"ypos"			"cs-0.5"
 			"zpos"			"0"		
-			"wide"			"o1"
-			"tall"			"p0.12"
+			"wide"			"100"
+			"tall"			"100"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -185,12 +185,14 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BGPanel"
-		"xpos"			"rs1"
-		"ypos"			"20"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"-1"
-		"wide"			"260"
+		"wide"			"200"
 		"tall"			"f40"
 		"visible"		"1"
+		"border"		"NoBorder"
+		"bgcolor_override"	"25 25 25 0"
 		"PaintBackgroundType"	"2"
 		"proportionaltoparent"	"1"
 
@@ -206,16 +208,16 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"NameLabel"
-			"xpos"			"65"
-			"ypos"			"5"
-			"wide"			"f0"
+			"xpos"			"90"
+			"ypos"			"35"
+			"wide"			"100"
 			"zpos"			"100"
-			"tall"			"20"
+			"tall"			"22"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"HudFontSmallishBold"
-			"fgcolor_override"	"TanLight"
-			"textAlignment"	"north-west"
+			"font"			"NeutraBold_20"
+			"fgcolor_override"	"c_white"
+			"textAlignment"	"north"
 			"labelText"		"%name%"
 			"proportionaltoparent"	"1"
 
@@ -229,16 +231,16 @@
 		{
 			"ControlName"	"CAutoFittingLabel"
 			"fieldName"		"DescLine1"
-			"xpos"			"65"
-			"ypos"			"19"
-			"wide"			"195"
+			"xpos"			"0"
+			"ypos"			"60"
+			"wide"			"200"
 			"zpos"			"100"
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"HudFontSmallestBold"
-			"fgcolor_override"	"TanLight"
-			"textAlignment"	"north-west"
+			"font"			"NeutraBold_10"
+			"fgcolor_override"	"160 160 160 255"
+			"textAlignment"	"center"
 			"labelText"		"%desc1%"
 			"proportionaltoparent"	"1"
 
@@ -246,13 +248,17 @@
 			{
 				"xpos"	"67"
 				"ypos"	"4"
+				"wide"	"195"
+				"font"	"NeutraText_12"
+				"fgcolor_override"	"c_white"
+				"textAlignment"	"north-west"
 			}
 
 			"fonts"
 			{
-				"0"		"HudFontSmallestBold"
-				"1"		"StorePromotionsTitle"
-				"2"		"FontStorePrice"
+				"0"		"NeutraBold_11"
+				"1"		"NeutraBold_10"
+				"2"		"NeutraBold_9"
 			}
 		}
 
@@ -260,16 +266,16 @@
 		{
 			"ControlName"	"CAutoFittingLabel"
 			"fieldName"		"DescLine2"
-			"xpos"			"65"
-			"ypos"			"29"
-			"wide"			"195"
+			"xpos"			"0"
+			"ypos"			"70"
+			"wide"			"200"
 			"zpos"			"100"
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"HudFontSmallestBold"
-			"fgcolor_override"	"TanLight"
-			"textAlignment"	"north-west"
+			"font"			"NeutraBold_10"
+			"fgcolor_override"	"160 160 160 255"
+			"textAlignment"	"center"
 			"labelText"		"%desc2%"
 			"proportionaltoparent"	"1"
 
@@ -277,13 +283,17 @@
 			{
 				"xpos"	"67"
 				"ypos"	"4"
+				"wide"	"195"
+				"font"	"NeutraText_12"
+				"fgcolor_override"	"c_white"
+				"textAlignment"	"north-west"
 			}
 
 			"fonts"
 			{
-				"0"		"HudFontSmallestBold"
-				"1"		"StorePromotionsTitle"
-				"2"		"FontStorePrice"
+				"0"		"NeutraBold_11"
+				"1"		"NeutraBold_10"
+				"2"		"NeutraBold_9"
 			}
 
 			"colors"
@@ -297,9 +307,9 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"StatsContainer"
-			"xpos"			"rs1-5"
+			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"f70"
+			"wide"			"200"
 			"tall"			"f0"
 			"proportionaltoparent"	"1"
 
@@ -314,10 +324,10 @@
 			{
 				"Controlname"	"EditablePanel"
 				"fieldName"		"XPBar"
-				"xpos"			"cs-0.5"
+				"xpos"			"0"
 				"ypos"			"rs1-3"
-				"wide"			"p1"
-				"tall"			"30"
+				"wide"			"200"
+				"tall"			"35"
 				"proportionaltoparent"	"1"
 
 	
@@ -331,7 +341,7 @@
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
-					"visible"		"1"
+					"visible"		"0"
 					"enabled"		"1"
 					"font"			"ItemFontAttribSmall"
 					"fgcolor_override"	"TanLight"
@@ -349,7 +359,7 @@
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
-					"visible"		"1"
+					"visible"		"0"
 					"enabled"		"1"
 					"font"			"ItemFontAttribSmall"
 					"fgcolor_override"	"TanLight"
@@ -362,11 +372,18 @@
 				{
 					"Controlname"	"EditablePanel"
 					"fieldName"		"ProgressBarsContainer"
-					"xpos"			"0"
+					"xpos"			"30"
 					"ypos"			"rs1-10"
-					"wide"			"p1"
+					"wide"			"140"
 					"tall"			"7"
 					"proportionaltoparent"	"1"
+					
+					if_mini
+					{
+						"xpos"			"0"
+						"ypos"			"rs1-10"
+						"wide"			"p1"
+					}
 
 					"ProgressBar"
 					{
@@ -380,7 +397,7 @@
 						"proportionaltoparent"	"1"
 						"progress"		"1"
 
-						"fgcolor_override"	"20 20 20 180"
+						"fgcolor_override"	"20 20 20 0"
 						"bgcolor_override"	"0 0 0 0"
 					}
 

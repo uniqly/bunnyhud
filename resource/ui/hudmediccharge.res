@@ -38,51 +38,7 @@
 		"FgColor"		"c_white"
 		"font"			"NeutraBold_48"
 	}
-	
-	"ChargeLabel1"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"ChargeLabel1"
-		"xpos"			"c170"
-		"ypos"			"r170"
-		"zpos"			"1"
-		"wide"			"120"
-		"tall"			"40"
-		"autoResize"	"1"
-		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"#TF_UberchargeMinHUD"
-		"textAlignment"	"south-west"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"FgColor"		"transparent"
-		"font"			"NeutraBold_48"
-	}
-	
-	"ChargeLabel2"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"ChargeLabel2"
-		"xpos"			"419"
-		"ypos"			"304"
-		"zpos"			"0"
-		"wide"			"150"
-		"tall"			"54 "
-		"autoResize"	"1"
-		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"#TF_UberchargeMinHUD"
-		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"FgColor"		"transparent"
-		"font"			"NeutraBold_48"
-	}
-	
+		
 	"IndividualChargesLabel"
 	{
 		"ControlName"	"CExLabel"

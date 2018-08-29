@@ -2744,5 +2744,53 @@ Scheme
 			"draw_corner_width"		"5"
 			"draw_corner_height" 	"5"	
 		}
+		
+		c_b_MenuButtonBorder
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "nüBase"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "nüBase"
+					"offset" "0 0"
+				}
+				"3"
+				{
+					"color" "nüBase"
+					"offset" "0 0"
+				}
+				"4"
+				{
+					"color" "nüBase"
+					"offset" "0 0"
+				}
+				"5"
+				{
+					"color" "nüBase"
+					"offset" "0 0"
+				}
+				"6"
+				{
+					"color" "nüBase"
+					"offset" "0 0"
+				}
+				"7"
+				{
+					"color" "nüBase"
+					"offset" "0 0"
+				}
+				"8"
+				{
+					"color" "nüBase"
+					"offset" "0 0"
+				}
+			}
+		}
 	}
 }
