@@ -6,6 +6,10 @@ Works on 16:9(tested on 1920x1080) and 4:3(tested on 1280x960).
 
 **CHANGELOG**
 
+**v.2018.28.8**  
+Changes:  
+-Added custom main menu with custom background.  
+
 **v.2018.21.8**  
 Changes:  
 -Re-added 4:3 support
