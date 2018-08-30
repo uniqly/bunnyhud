@@ -504,7 +504,7 @@
 		"visible" "1"
 		"enabled" "1"
 		"wide"	 "640"
-		"tall"	 "480"
+		"tall"	 "f0"
 	}
 
 	HudTrain
@@ -792,15 +792,14 @@
 	{
 		"fieldName"				"HudControlPointIcons"
 		"xpos"					"0"
-		"ypos"					"410"
+		"ypos"					"0"
 		"wide"					"f0"
-		"tall"					"200"
+		"tall"					"480"
 		"visible"				"1"
 		"enabled"				"1"
-		"separator_width"		"9"	// distance between the icons (including their backgrounds)
-		"separator_height"		"7"
-		"height_offset"			"0"	[$WIN32] // distance from the bottom of the panel
-		"height_offset"			"26"	[$X360]
+		"separator_width"		"0"	// distance between the icons (including their backgrounds)
+		"separator_height"		"0"
+		"height_offset"			"6"	[$WIN32] // distance from the bottom of the panel
 	}
 
 	HudCapturePanel

@@ -1114,7 +1114,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"NeutraText-BookAlt"
 				"tall"		"6"
 				"weight"	"400"
 				"additive"	"0"
@@ -1125,7 +1125,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"NeutraText-BookAlt"
 				"tall"		"8"
 				"tall_hidef"	"10"
 				"tall_lodef"	"14"
@@ -1138,7 +1138,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"NeutraText-BookAlt"
 				"tall"		"10"
 				"tall_hidef"	"12"
 				"tall_lodef"	"14"
@@ -1151,7 +1151,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"NeutraText-BookAlt"
 				"tall"		"14"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1163,7 +1163,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"NeutraText-BookAlt"
 				"tall"		"20"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -2683,6 +2683,17 @@ Scheme
 			}
 		}
 		
+		"NeutraBold_25"
+		{
+			"1"
+			{
+				"name"	"Neutra Display Titling"
+				"tall"	"25"
+				"additive"	"0"
+				"antialias" "1"				
+			}
+		}
+		
 		"NeutraBold_32"
 		{
 			"1"
@@ -2913,6 +2924,17 @@ Scheme
 			{
 				"name"	"NeutraText-BookAlt"
 				"tall"	"14"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		
+		"NeutraText_15"
+		{
+			"1"
+			{
+				"name"	"NeutraText-BookAlt"
+				"tall"	"15"
 				"additive"	"0"
 				"antialias"	"1"
 			}

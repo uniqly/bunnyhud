@@ -4,13 +4,13 @@
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TimePanelBG"
-		"xpos"			"26"
+		"xpos"			"99999"
 		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"60"
 		"tall"			"24"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"../hud/objectives_timepanel_blue_bg"	
 		"scaleImage"		"1"	
 		"src_corner_height"		"3"
@@ -64,6 +64,7 @@
 		"brighttext"		"0"
 		"wrap"			"0"
 		"font"			"NeutraText_12"
+		"fgcolor"		"Yellow"
 
 		if_match
 		{
@@ -233,20 +234,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerTimeLimitLabel"
-		"xpos"			"16"
-		"xpos_hidef"	"0"
-		"xpos_lodef"	"0"
-		"ypos"			"33"
-		"ypos_minmode"	"24"
-		"ypos_hidef"	"41"
-		"ypos_lodef"	"41"
+		"xpos"			"cs-0.5"
+		"ypos"			"16"
 		"zpos"			"5"
-		"wide"			"78"
-		"wide_hidef"	"300"
-		"wide_lodef"	"300"
-		"tall"			"19"
-		"tall_hidef"	"19"
-		"tall_lodef"	"22"
+		"wide"			"60"
+		"tall"			"14"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"%servertimeleft%"
@@ -254,16 +246,14 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"ClockSubText"
-		"font_minmode"	"ClockSubTextSuddenDeath"
-		"font_hidef"	"HudFontSmall"
-		"font_lodef"	"HudFontSmall"
+		"font"			"NeutraText_12"
+		"fgcolor_override"		"255 255 0 255"
 
 		if_match
 		{
 			"proportionaltoparent"	"1"
-			"xpos"					"30"
-			"ypos"					"27"
+			"xpos"			"cs-0.5"
+			"ypos"			"16"
 			"font"					"NeutraText_12"
 		}
 	}	

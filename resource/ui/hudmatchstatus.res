@@ -198,11 +198,11 @@
 	"RoundCounter"
 	{
 		"fieldName"		"RoundCounter"
-		"xpos"			"cs-0.5"
-		"ypos"			"-2"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"1"		
-		"wide"			"300"
-		"tall"			"100"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"1"
 		"enabled"		"1"
 	}	
@@ -278,11 +278,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"
 		"xpos"				"c-55"
-		"xpos_hidef"		"c-150"
-		"xpos_lodef"		"c-150"
-		"ypos"				"0"	[$WIN32]
-		"ypos_minmode"		"-14"	[$WIN32]
-		"ypos"				"24"	[$X360]
+		"ypos"				"0"	
 		"zpos"				"2"
 		"wide"				"110"
 		"wide_hidef"		"300"
@@ -290,8 +286,7 @@
 		"tall"				"150"
 		"visible"			"0"
 		"enabled"			"1"
-		"delta_item_x"			"22"	[$WIN32]
-		"delta_item_x"			"115"	[$X360]
+		"delta_item_x"			"22"	
 		"delta_item_start_y"	"50"
 		"delta_item_end_y"		"70"
 		"PositiveColor"			"0 255 0 255"
@@ -317,13 +312,13 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"NeutraText_18"
+			"font"			"NeutraText_16"
 			"fgcolor"		"c_white"
-			"xpos"			"26"
+			"xpos"			"cs-0.5"
 			"ypos"			"0"
 			"zpos"			"3"
-			"tall"			"24"
-			"wide"			"60"
+			"tall"			"16"
+			"wide"			"72"
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"		"center"
@@ -334,10 +329,10 @@
 				"proportionaltoparent"	"1"
 
 				"xpos"			"cs-0.5"
-				"ypos"			"11"
+				"ypos"			"0"
 				"tall"			"16"
 				"wide"			"72"
-				"font"			"NeutraText_14"
+				"font"			"NeutraText_16"
 			}
 		}	
 	}
@@ -354,17 +349,17 @@
 		"enabled"		"1"
 
 
-		"max_size"	"19"
+		"max_size"	"16"
 
 		"6v6_gap"	"4"
 		"12v12_gap"	"1"
 
 		"team1_grow_dir" "west"
-		"team1_base_x"	"c-45"
+		"team1_base_x"	"c-43"
 		"team1_max_expand"	"133"
 
 		"team2_grow_dir" "east"
-		"team2_base_x"	"c47"
+		"team2_base_x"	"c45"
 		"team2_max_expand"	"133"
 
 		"playerpanels_kv"
@@ -374,15 +369,15 @@
 			"tall"			"50"
 			"zpos"			"1"
 
-			"color_portrait_bg_red"	"119 62 61 255"
-			"color_portrait_bg_blue"	"62 81 101 255"
-			"color_portrait_bg_red_dead"	"79 54 52 255"
-			"color_portrait_bg_blue_dead"	"44 49 51 255"
-			"color_bar_health_high"	"84 191 58 255"
-			"color_bar_health_med"	"191 183 58 255"
-			"percentage_health_med"	"0.6"
-			"color_bar_health_low"	"191 58 58 255"
-			"percentage_health_low"	"0.3"
+			"color_portrait_bg_red"	"c_redteam"
+			"color_portrait_bg_blue"	"c_bluteam"
+			"color_portrait_bg_red_dead"	"c_redteam"
+			"color_portrait_bg_blue_dead"	"c_blueteam"
+			"color_bar_health_high"	"c_healthbonus"
+			"color_bar_health_med"	"c_dyingpulse"
+			"percentage_health_med"	"0.7"
+			"color_bar_health_low"	"c_redteam"
+			"percentage_health_low"	"0.4"
 			"color_portrait_blend_dead_red"	"255 255 255 255"
 			"color_portrait_blend_dead_blue" "255 255 255 255"
 			

@@ -202,8 +202,10 @@ Scheme
 		"c_white"			"235 235 235 255"
 		"translucent"		"64 64 64 150"
 		"c_black"			"38 50 56 255"
-		"c_redteam"			"255 102 102 255"
-		"c_bluteam"			"102 102 255 255"
+		"c_redteam"			"229 57 53 255"
+		"c_reddead"			"191 54 12 255"
+		"c_bluteam"			"30 136 229 255"
+		"c_bludead"			"13 71 161 255"
 				
 		////HP///
 		"c_health"			"235 235 235 255"
