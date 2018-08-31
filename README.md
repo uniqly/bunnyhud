@@ -6,6 +6,12 @@ Works on 16:9(tested on 1920x1080) and 4:3(tested on 1280x960).
 
 **CHANGELOG**
 
+**v.2018.30.8**  
+Changes:  
+-Re-did the scoreboard to make it look more modern  
+-Changed team colours  
+-Fixed main menu  
+
 **v.2018.29.8**  
 Changes:  
 -Added custom main menu with custom background.  
