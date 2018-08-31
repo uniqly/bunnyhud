@@ -588,16 +588,7 @@ event ActiveTimerBGPulse
 
 event ActiveTimerHighlight
 {
-	Animate TimePanelValue FgColor	"255 255 30 255"		Linear 0.1 0.1
-	Animate TimePanelValue FgColor	"c_white"		Linear 0.3 0.1
-
-	Animate TimePanelValue FgColor	"255 255 30 255"		Linear 0.5 0.1
-	Animate TimePanelValue FgColor	"c_white"		Linear 0.7 0.1
-
-	Animate TimePanelValue FgColor	"255 255 30 255"		Linear 0.9 0.1
-	Animate TimePanelValue FgColor	"c_white"		Linear 1.1 0.1
-
-	Animate TimePanelValue FgColor	"255 255 30 255"		Linear 1.3 0.3
+	Animate TimePanelValue FgColor	"255 255 30 255"		Linear 0.0 0.1
 	
 }
 

@@ -1,4 +1,4 @@
-"Resource/UI/TextWindowCustomServer.res"
+"Resource/UI/TextWindow.res"
 {
 	"info"
 	{
@@ -16,26 +16,42 @@
 		"settitlebarvisible"	"0"
 	}
 	
+	"MainBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MainBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"0"		
+		"wide"			"f0"
+		"tall"			"480"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"20 20 20 175"
+	}
+	
 	"TFMessageTitle"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TFMessageTitle"
-		"xpos"			"c-184"
+		"xpos"			"c-320"
 		"ypos"			"95"
 		"zpos"			"1"
-		"wide"			"420"
+		"wide"			"640"
 		"tall"			"24"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_WELCOME"
-		"textAlignment"	"west"
+		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"ChalkboardTitle"
-		"fgcolor"		"White"
-	}	
+		"font"			"NeutraBold_24"
+		"fgcolor"		"c_white"
+	}
 
 	"TextMessage"
 	{
@@ -49,8 +65,8 @@
 	{
 		"ControlName"	"CExRichText"
 		"fieldName"		"TFTextMessage"
-		"font"			"ChalkboardText"
-		"xpos"			"c-184"
+		"font"			"NeutraText_12"
+		"xpos"			"c-203"
 		"ypos"			"125"
 		"zpos"			"1"
 		"wide"			"415"
@@ -61,23 +77,23 @@
 		"enabled"		"1"
 		"paintborder"	"0"
 		"textAlignment"	"northwest"
-		"fgcolor"		"Gray"
+		"fgcolor"		"c_white"
 	}
 
 	"HTMLMessage"
 	{
 		"ControlName"		"HTML"
 		"fieldName"		"HTMLMessage"
-		"xpos"			"c-320"
-		"ypos"			"0"
+		"xpos"			"c-203"
+		"ypos"			"75"
 		"zpos"			"1"
-		"wide"			"640"
-		"tall"			"430"
+		"wide"			"415"
+		"tall"			"295"
 		"autoResize"	"1"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"		"0"
+		"tabPosition"	"0"
 		"paintborder"	"0"
 	}
 	
@@ -85,8 +101,8 @@
 	{
 		"ControlName"		"CExButton"
 		"fieldName"		"ok"
-		"xpos"			"r190"
-		"ypos"			"r40"
+		"xpos"			"c-75"
+		"ypos"			"c145"
 		"zpos"			"6"
 		"wide"			"150"
 		"tall"			"30"
@@ -94,15 +110,21 @@
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"		"0"
-		"labelText"		"#TF_Continue"
-		"textAlignment"		"center"
+		"tabPosition"	"0"
+		"labelText"		"CONTINUE (&E)"
+		"textAlignment"	"center"
 		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
+		"brighttext"	"0"
+		"wrap"			"0"
 		"command"		"okay"
 		"default"		"1"
-		"font"			"MenuSmallFont"
+		"font"			"NeutraBold_24"
+		"paintbackground"	"0"
+		
+		"fgcolor"					"c_white"
+		"defaultFgColor_override" 	"c_white"
+		"armedFgColor_override"		"160 160 160 255"
+		"depressedFgColor_override" "160 160 160 255"
 	}
 	
 	"MenuBG"
@@ -118,36 +140,24 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fov"			"20"
-		
-		"model"
-		{
-			"modelname"	"models/vgui/UI_welcome01_screen.mdl"
-			"skin"		"0"
-			"angles_x" "0"
-			"angles_y" "180"
-			"angles_z" "0"
-			"origin_x" "290"
-			"origin_y" "0"
-			"origin_z" "-39"
-		}
+		"fillcolor"		"20 20 20 175"
 	}
 	
 	"ShadedBar"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ShadedBar"
-		"xpos"			"0"
-		"ypos"			"r50"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"5"
-		"wide"			"f0"
-		"tall"			"50"
+		"wide"			"0"
+		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"	"0"	
-		"image"			"loadout_bottom_gradient"
+		"image"			""
 		"tileImage"		"1"
 		"PaintBackgroundType"	"0"
 	}						
