@@ -61,7 +61,7 @@
 		"backgroundtype"		"2"
 		"proportionaltoparent"	"1"
 			
-		"image"					"../hud/comp_round_timer"
+		"image"					""
 		"scaleimage"			"1"
 	}
 	
@@ -74,8 +74,8 @@
 		"wide"			"36"
 		"tall"			"12"
 		"proportionaltoparent"	"1"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"fillcolor"		"c_bluteam"
 
 	}
@@ -89,8 +89,8 @@
 		"wide"			"36"
 		"tall"			"12"
 		"proportionaltoparent"	"1"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"fillcolor"		"c_redteam"
 	}
 	
@@ -103,8 +103,8 @@
 		"wide"			"72"
 		"tall"			"16"
 		"proportionaltoparent"	"1"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"fillcolor"		"c_black"
 
 	}

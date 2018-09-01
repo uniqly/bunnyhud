@@ -243,7 +243,7 @@
 		"ControlName"		"CTFClientScoreBoardDialog"
 		"fieldName"		"scoreinfo"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"r280"
 		"wide"			"600"
 		"tall"			"500"
 		"autoResize"	"0"
@@ -261,9 +261,6 @@
 		"ping_width"		"20"
 		"killstreak_width"	"17"
 		"killstreak_image_width" "10"
-		"pin_to_sibling"	"c_bluscorebg2"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 	}
 	
 	"BluePlayerList"
@@ -271,7 +268,7 @@
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"BluePlayerList"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"r280"
 		"zpos"			"20"
 		"wide"			"300"
 		"tall"			"160"
@@ -289,17 +286,14 @@
 			"visible"		"0"
 		}
 		
-		"pin_to_sibling"	"c_mainbg"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 	
 	"RedPlayerList"
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"RedPlayerList"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"300"
+		"ypos"			"r280"
 		"zpos"			"20"
 		"wide"			"300"
 		"tall"			"160"
@@ -317,9 +311,6 @@
  			"visible"		"0"
  		}
 		
-		"pin_to_sibling"	"BluePlayerList"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 	
 	"LocalPlayerStatsPanel"

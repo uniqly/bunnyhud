@@ -69,7 +69,7 @@
 		"labelText"		"%gamemode%"
 		"textAlignment"	"west"
 		"font"			"NeutraBold_20"
-		"fgcolor"		"AntsHUDLessWhite"
+		"fgcolor"		"c_white"
 	}	
 	
 	"MapInfoText"

@@ -51,11 +51,11 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"WaitingForPlayersLabel"
-		"xpos"			"21"
-		"ypos"			"24"
+		"xpos"			"30"
+		"ypos"			"16"
 		"zpos"			"5"
 		"wide"			"70"
-		"tall"			"12"
+		"tall"			"10"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#game_WaitingForPlayers"
@@ -63,15 +63,12 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"NeutraText_12"
+		"font"			"NeutraText_10"
 		"fgcolor"		"Yellow"
 
 		if_match
 		{
-			"proportionaltoparent"	"1"
-			"xpos"					"30"
-			"ypos"					"27"
-			"font"					"NeutraText_12"
+
 		}
 	}			
 	"WaitingForPlayersBG"
@@ -97,11 +94,11 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"OvertimeLabel"
-		"xpos"			"21"
-		"ypos"			"24"
+		"xpos"			"30"
+		"ypos"			"16"
 		"zpos"			"5"
 		"wide"			"70"
-		"tall"			"12"
+		"tall"			"10"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#game_Overtime"
@@ -109,14 +106,12 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"NeutraText_12"
+		"font"			"NeutraText_10"
+		"fgcolor"		"c_white"
 
 		if_match
 		{
-			"proportionaltoparent"	"1"
-			"xpos"					"30"
-			"ypos"					"27"
-			"font"					"NeutraText_12"
+		
 		}
 	}			
 	"OvertimeBG"
@@ -142,11 +137,11 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"SuddenDeathLabel"
-		"xpos"			"21"
-		"ypos"			"24"
+		"xpos"			"30"
+		"ypos"			"16"
 		"zpos"			"5"
 		"wide"			"70"
-		"tall"			"12"
+		"tall"			"10"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#game_SuddenDeath"
@@ -154,14 +149,11 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"NeutraText_12"
+		"font"			"NeutraText_10"
 
 		if_match
 		{
-			"proportionaltoparent"	"1"
-			"xpos"					"30"
-			"ypos"					"27"
-			"font"					"NeutraText_12"
+
 		}
 	}			
 	"SuddenDeathBG"
@@ -188,11 +180,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SetupLabel"
-		"xpos"			"21"
-		"ypos"			"24"
+		"xpos"			"30"
+		"ypos"			"16"
 		"zpos"			"5"
 		"wide"			"70"
-		"tall"			"12"
+		"tall"			"10"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#game_Setup"
@@ -200,14 +192,12 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"NeutraText_12"
+		"font"			"NeutraText_10"
+		"fgcolor"		"c_white"
 
 		if_match
 		{
-			"proportionaltoparent"	"1"
-			"xpos"					"30"
-			"ypos"					"27"
-			"font"					"NeutraText_12"
+
 		}
 	}	
 	"SetupBG"
