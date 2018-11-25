@@ -209,8 +209,8 @@ Scheme
 				
 		////HP///
 		"c_health"			"235 235 235 255"
-		"c_healthbonus"		"0 191 165 255"
-		"c_dyingpulse"		"255 111 0 255"
+		"c_healthbonus"		"0 184 212 255"
+		"c_dyingpulse"		"255 109 0 255"
 		
 		///AMMO///
 		"c_ammo"			"0 191 165 255"
@@ -221,7 +221,7 @@ Scheme
 		"c_ammolownoclip"	"255 111 0 255"
 		
 		///DAMAGE///
-		"c_damage"			"255 111 0 255"
+		"c_damage"			"255 109 0 255"
 		"c_damagepos"		"0 191 165 255"
 		"c_damageneg"		"255 235 59 255"
 		

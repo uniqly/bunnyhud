@@ -8,7 +8,7 @@
 //		"x_offset"		"40"
 		"xpos"			"c-100"	
 		"ypos"			"r190"	
-		"wide"			"100"
+		"wide"			"200"
 		"tall"			"50"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
